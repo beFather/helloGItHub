@@ -1,0 +1,13 @@
+git config --global user.name beFather
+git  config user.name
+git config --global user.email addalpa@gmail.com
+git  config user.email
+cat ~/.gitconfig
+git config --list
+
+git 
+    add
+    commit
+    rm
+    revert
+    
