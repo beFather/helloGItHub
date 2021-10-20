@@ -15,8 +15,5 @@ git commit -am "comment"
 git push -u origin master
 
 git 
-    add
-    commit
-    rm
     revert : 히스토리 백
     reset  : 히스토리 지움 
