@@ -17,3 +17,8 @@ git push -u origin master
 git 
     revert : 히스토리 백
     reset  : 히스토리 지움 
+
+git push origin <branchName>
+git branch -r  //서버 브랜치 목록
+git branch -a
+$ git checkout br1 //브랜치변경
