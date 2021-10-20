@@ -21,4 +21,7 @@ git
 git push origin <branchName>
 git branch -r  //서버 브랜치 목록
 git branch -a
-$ git checkout br1 //브랜치변경
+git checkout br1 //브랜치변경
+git push origin br1 //브랜치 반영
+-- br1에서 현재브랜치로 파일update
+git checkout -p br1 gitHelp.txt
