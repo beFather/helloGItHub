@@ -5,7 +5,18 @@ git  config user.email
 cat ~/.gitconfig
 git config --list
 
+git remote add orgin git@github.com:beFather/helloGItHub.git
+git clone https://github.com/beFather/helloGItHub.git 
+git pull 
+git add -all 
+git add <fileName>
+git add . 
+git commit -am "comment"
+git push -u origin master
+
 git 
-    reset
-    revert
-    
+    add
+    commit
+    rm
+    revert : 히스토리 백
+    reset  : 히스토리 지움 
