@@ -5,7 +5,7 @@ git  config user.email
 cat ~/.gitconfig
 git config --list
 
-git remote add orgin git@github.com:beFather/helloGItHub.git
+git remote add origin git@github.com:beFather/helloGItHub.git
 git clone https://github.com/beFather/helloGItHub.git 
 git pull 
 git add -all 
@@ -25,3 +25,4 @@ git checkout br1 //브랜치변경
 git push origin br1 //브랜치 반영
 -- br1에서 현재브랜치로 파일update
 git checkout -p br1 gitHelp.txt
+git checkout -t origin/<branchName>
